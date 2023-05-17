@@ -1,0 +1,7 @@
+function doubleChar(str) {
+  let results = '';
+  for (const char of str) {
+    results += char + char;
+  }
+  return results;
+  }
