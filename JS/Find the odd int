@@ -1,0 +1,5 @@
+function findOdd(A) {
+  return A.reduce((acc, item) => {
+    return acc ^ item;
+  }, 0);
+}
