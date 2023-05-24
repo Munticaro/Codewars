@@ -1,0 +1,7 @@
+let arr = [43, 10, 5];
+let totalGoals = 0;
+for (let i =0; i < arr.length; i++) {
+  totalGoals += arr[i]
+}
+
+console.log(totalGoals);
