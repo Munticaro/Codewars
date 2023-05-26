@@ -1,0 +1,10 @@
+function isSquare(n) {
+  if (n < 0) {
+    return false;
+  } else if (n === 0) {
+    return true;
+  } else {
+    let Square = Math.floor(Math.sqrt(n));
+    return Square * Square === n;
+  }
+}
