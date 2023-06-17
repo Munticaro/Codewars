@@ -1,0 +1,7 @@
+function noSpace(x) {
+  if (x.trim().length === 0) {
+    return '';
+  } else {
+    return x.replace(/\s/g, '');
+  }
+}
